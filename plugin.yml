@@ -1,0 +1,8 @@
+name: cShortcut
+main: me.chaseoes.cshortcut.CShortcut
+version: 1.2
+description: Create command shortcuts.
+commands:
+  cshortcut:
+    description: Central command for cShortcut.
+    usage: /cshortcut reload

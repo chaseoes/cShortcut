@@ -1,0 +1,25 @@
+commands:
+  /test:
+    permission: my.permission
+    commands:
+    - '/me I just sent a command!'
+    - '%message Only the command sender (%name) can see this!'
+    - '%broadcast &4The entire server can see this!'
+    - '%console say I was forced to do this command! :('
+  /myage:
+    permission: my.permission
+    commands:
+    - '%broadcast %name says that they are %1 years old!'
+    - '%message %name, are you sure that you are %1 and not 5?'
+  /rollback:
+    permission: my.permission
+    commands:
+    - '%message &2Attempting to rollback %1 for %2 days...'
+    - '/lb rollback player &1 since %2 days'
+  /delay:
+    permission: mycommand.delay
+    commands:
+    - '%console say Server restarting in 10 seconds!'
+    - '%delay-5 %console say Server restarting in 5 seconds!'
+    - '%delay-10 %console say Server restarting now!'
+    - '%delay-10 %console restart'
