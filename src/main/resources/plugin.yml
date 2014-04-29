@@ -5,4 +5,5 @@ description: Create command shortcuts.
 commands:
   cshortcut:
     description: Central command for cShortcut.
+    permission: cshortcut.reload
     usage: /cshortcut reload
